@@ -3,3 +3,7 @@ service:
   identifier: sockshop
   orgIdentifier: default
   projectIdentifier: default_project
+  gitOpsEnabled: true
+  serviceDefinition:
+    spec: {}
+    type: Kubernetes
