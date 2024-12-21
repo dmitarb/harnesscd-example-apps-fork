@@ -1,0 +1,9 @@
+service:
+  name: guestbook-fork-svc
+  identifier: guestbookforksvc
+  serviceDefinition:
+    type: Kubernetes
+    spec: {}
+  gitOpsEnabled: true
+  orgIdentifier: default
+  projectIdentifier: default_project
