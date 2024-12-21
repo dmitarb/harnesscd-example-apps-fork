@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: orders-db
-        image: mongo:6.0.20-rc3-nanoserver-ltsc2022
+        image: amd64/mongo:8
 
         ports:
         - name: mongo
